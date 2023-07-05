@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ {% include 'header' %}
+ <body>
+  <div class="main">
+  {% include 'spacer' %}
+  {% include 'heading' %}
+  {% include 'spacer' %}
+  {% for post in loop_content["posts"] %}
+   <div class="content">
+    <h2 class="postTitle">{{ post.title }}</h2>
+    <hr class="separator"/>
+    <p class="postDescription">
+     {{ post.description }}
+    </p>
+    <hr class="separator"/>
+    <p class="postLink">
+     <a class="postLink" href="{{ post.url }}">{{ site.readMeText }}</a>
+    </p>
+   </div>
+   {% include 'spacer' %}
+   {% endfor %}
+  </div>
+ </body>
+</html>
