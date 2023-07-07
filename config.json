@@ -6,7 +6,7 @@
     "description": "A tiny doll's blog.",
     "prod_url": "/mandy-dark-material",
     "dev_url": "",
-    "copyFiles": "false=>placeholder",
+    "copyFiles": "true=>CNAME",
     "tlDomain": "https://angeldollface.art",
     "updateFreq": "weekly",
     "keywords":"blog mandy-static-site-generator bratz-doll doll",
