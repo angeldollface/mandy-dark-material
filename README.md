@@ -2,7 +2,7 @@
 
 [![Mandy CI](https://github.com/angeldollface/mandy-dark-material/actions/workflows/main.yml/badge.svg)](https://github.com/angeldollface/mandy-dark-material/actions/workflows/main.yml)
 
-***A simple, beautiful, dark-themed, material-themed template site for Mandy static-site generator. :nail_care: :rocket: :ribbon:***
+***A simple, beautiful, dark-themed, material-themed template site for the Mandy static-site generator. :nail_care: :rocket: :ribbon:***
 
 ## ABOUT :books:
 
