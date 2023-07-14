@@ -190,7 +190,7 @@ The final step is very simple. Head to your repository's settings once again. On
 
 ## CONCLUSION
 
-I hope this post helped you get up and running with Mandy and that you've learned some new and interesting things. If you have questions or problems, you can always contact me on Mandy's Discord server or tweet at me under the [@angeldollface666](https://twitter.com/angeldollface666) handle. You can also DM me but I cannot promise that I will answer immediately. I'm quite a busy doll.
+I hope this post helped you get up and running with Mandy and that you've learned some new and interesting things. If you have questions or problems, you can always contact me on Mandy's Discord server or tweet at me under the [@angeldollface666](https://twitter.com/angeldollface66) handle. You can also DM me but I cannot promise that I will answer immediately. I'm quite a busy doll.
 
 ## FURTHER LINKS
 
