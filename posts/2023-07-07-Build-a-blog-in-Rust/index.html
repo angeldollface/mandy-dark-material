@@ -148,7 +148,7 @@ mandy --inits mysite --wtmpl angeldollface/mandy-template-site</code></pre>
 
 <p><code>config.json</code> contains some important configuration options for any Mandy-powered site. There a few configuration options that <em>have</em> to be present for Mandy-powered projects to build properly. You can find out more about how all that works <a href='https://angeldollface.art/mandys-house/documentation/configuration/'>here</a>.</p>
 
-<p><code>sass</code> is the directory that contains the styling for your site&#8217;s pages. This does not <em>have</em> to be there but it is a much more efficient way of managing your styling. <a href='https://angeldollface.art/mandys-house/documentation/stylignn/'>This page</a> explains things in more depth.</p>
+<p><code>sass</code> is the directory that contains the styling for your site&#8217;s pages. This does not <em>have</em> to be there but it is a much more efficient way of managing your styling. <a href='https://angeldollface.art/mandys-house/documentation/styling/'>This page</a> explains things in more depth.</p>
 
 <p>The <code>data</code> directory contains non-essential data for your Mandy-powered site. This data could be navigation links or social media links, any sort of data that is a list. You can read more about how to handle site data in Mandy-powered sites <a href='https://angeldollface.art/mandys-house/documentation/data/'>here</a>.</p>
 
@@ -217,7 +217,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: angeldollface/mandy-github-action@v.0.3.0
+      - uses: angeldollface/mandy-github-action@v.0.3.2
       - name: &quot;Build the Mandy site&quot;
         run: mandy -c .
       - name: &quot;Deploy&quot;
