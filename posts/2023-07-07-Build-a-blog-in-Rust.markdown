@@ -106,7 +106,7 @@ The most important files and directories in the tree view of the `mysite` direct
 
 `config.json` contains some important configuration options for any Mandy-powered site. There a few configuration options that *have* to be present for Mandy-powered projects to build properly. You can find out more about how all that works [here](https://angeldollface.art/mandys-house/documentation/configuration/).
 
-`sass` is the directory that contains the styling for your site's pages. This does not *have* to be there but it is a much more efficient way of managing your styling. [This page](https://angeldollface.art/mandys-house/documentation/stylignn/) explains things in more depth.
+`sass` is the directory that contains the styling for your site's pages. This does not *have* to be there but it is a much more efficient way of managing your styling. [This page](https://angeldollface.art/mandys-house/documentation/styling/) explains things in more depth.
 
 The `data` directory contains non-essential data for your Mandy-powered site. This data could be navigation links or social media links, any sort of data that is a list. You can read more about how to handle site data in Mandy-powered sites [here](https://angeldollface.art/mandys-house/documentation/data/).
 
@@ -180,7 +180,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: angeldollface/mandy-github-action@v.0.3.0
+      - uses: angeldollface/mandy-github-action@v.0.3.2
       - name: "Build the Mandy site"
         run: mandy -c .
       - name: "Deploy"
