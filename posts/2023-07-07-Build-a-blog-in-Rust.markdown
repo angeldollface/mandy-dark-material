@@ -4,7 +4,13 @@ title: "Build a blog in Rust"
 description: "How to build a blog in Rust using the Mandy static-site generator."
 ---
 
+## INTRODUCTION
+
+In this blog post, I will be explaining the different approaches towards building a static site, why static-site generator are the easiest and most efficient tool to do so and why you should use Mandy, a new static-site generator written in Rust, to do this. However, basics must first be explained!
+
 ## THE JAMSTACK
+
+To understand the landscape of approaches and tools that exist towards building websites, we must understand the term "Jamstack". This term is often used when talking about tools like static-site generators.
 
 The term "Jamstack" is thrown around a lot but it describes a very simple approach towards building web applications and websites. To explain the core idea of the fancy word "Jamstack" we need to understand the two approaches that exist for creating modern websites. 
 
@@ -24,7 +30,7 @@ Layouts are templates for specifying how the HTML should be generated from the c
 
 Styling is a bit more tricky. Styling websites is done via CSS. However, large websites need large CSS style sheets. This can quickly become very tedious and taxing to maintain. For this reason, things like [SASS](https://sass-lang.com/) exist. SASS allows users the freedom to still write their CSS code in the way they are used to, but do so in a way that makes it more maintainable. Some examples of how SASS achieves this would be that SASS allows you to use variables, if-conditions, and a large number of other constructs you might be used to from a "proper" programming language. 
 
-The final component, writing the content, is usually done using Markdown. Markdown is almost like simple text with the exception of a few special symbols to mark the structure of a document. 
+The final component, writing the content, is usually done using Markdown. Markdown is almost like simple text with the exception of very few special symbols to mark the structure of a document. 
 
 Because there are so many static-site generators and most of them are getting quite old at this point, I decided to write a new player for this space in Rust. This new player is called "Mandy".
 
@@ -38,7 +44,7 @@ Installing Mandy is quite simple. There are installation scripts and downloadabl
 
 ## CREATING A NEW MANDY SITE
 
-I'm assuming you have installed Mandy successfully and running the command `mandy -v` produced a version message. Mandy takes a very open approach to compiling sites into static sites that have been made by other people. There is no central package repository of third-party sites or themes. Mandy allows you to just clone a repository and if a certain set of files exist in that repository, then she will compile your project into a static site. These third-party sites are called site templates. To distribute these site templates, the template simply needs to be in a GitHub repository. To start a new site, mandy needs two pieces of information: i) Where do you want to start a new Mandy site and ii) Which site template would you like to use? Mandy has a default site template that can get you up and running in no time. To start a new Mandy-powered site, simply type one of these commands:
+I'm assuming you have installed Mandy successfully and running the command `mandy -v` produced a version message. Mandy takes a very open approach to compiling sites into static sites that have been made by other people. There is no central package repository of third-party sites or themes. Mandy allows you to just clone a repository and if a certain set of files exist in that repository, then she will compile your project into a static site. These third-party sites are called site templates. To distribute these site templates, the template simply needs to be in a GitHub repository. To start a new site, Mandy needs two pieces of information: i) Where do you want to start a new Mandy site and ii) Which site template would you like to use? Mandy has a default site template that can get you up and running in no time. To start a new Mandy-powered site, simply type one of these commands:
 
 ```bash
 mandy -i mysite -w angeldollface/mandy-template-site
@@ -100,7 +106,7 @@ The most important files and directories in the tree view of the `mysite` direct
 
 `config.json` contains some important configuration options for any Mandy-powered site. There a few configuration options that *have* to be present for Mandy-powered projects to build properly. You can find out more about how all that works [here](https://angeldollface.art/mandys-house/documentation/configuration/).
 
-`sass` is the directory that contains the styling for your site's pages. This does not *have* to be there but it is a much more efficient way of managing your styling. [This page]() explains things in more depth.
+`sass` is the directory that contains the styling for your site's pages. This does not *have* to be there but it is a much more efficient way of managing your styling. [This page](https://angeldollface.art/mandys-house/documentation/stylignn/) explains things in more depth.
 
 The `data` directory contains non-essential data for your Mandy-powered site. This data could be navigation links or social media links, any sort of data that is a list. You can read more about how to handle site data in Mandy-powered sites [here](https://angeldollface.art/mandys-house/documentation/data/).
 
