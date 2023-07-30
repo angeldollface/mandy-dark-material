@@ -6,7 +6,7 @@
     "description": "A tiny doll's blog.",
     "prod_url": "",
     "dev_url": "",
-    "copyFiles": "true=>CNAME",
+    "copyFiles": "true=>CNAME|assets",
     "tlDomain": "https://angeldollface.art",
     "updateFreq": "weekly",
     "keywords":"blog mandy-static-site-generator bratz-doll doll",
