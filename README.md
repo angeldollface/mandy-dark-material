@@ -6,7 +6,7 @@
 
 ## ABOUT :books:
 
-Since I recently release v.0.3.2 of Mandy, a static-asite generator, I thought I'd start my blog again and build this blog using ***Mandy*** herself. This is my blog but also a Mandy template site. To find out more, head on over to this [link](https://angeldollface.art/mandys-house).
+Since I recently released v.0.3.2 of Mandy, a static-asite generator, I thought I'd start my blog again and build this blog using ***Mandy*** herself. This is my blog but also a Mandy template site. To find out more, head on over to this [link](https://angeldollface.art/mandys-house).
 
 ## FEATURES :test_tube:
 
