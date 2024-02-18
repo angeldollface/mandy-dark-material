@@ -6,7 +6,7 @@
 
 ## ABOUT :books:
 
-Since I recently released v.0.3.2 of Mandy, a static-asite generator, I thought I'd start my blog again and build this blog using ***Mandy*** herself. This is my blog but also a Mandy template site. To find out more, head on over to this [link](https://angeldollface.art/mandys-house).
+Since I recently released v.0.3.2 of Mandy, a static-asite generator, I thought I'd start my blog again and build this blog using ***Mandy*** herself. This is my blog but also a Mandy template site. To find out more, head on over to this [link](https://angeldollface.boo/mandys-house).
 
 ## FEATURES :test_tube:
 
@@ -17,7 +17,7 @@ Since I recently released v.0.3.2 of Mandy, a static-asite generator, I thought 
 
 ## USAGE :hammer_and_pick:
 
-To use this template site for your own Mandy-powered site, you need to have Mandy installed. To find out how to do that, head over to [this link](https://angeldollface.art/mandys-house/documentation/installation). Once you have Mandy installed, you can use this template in the following way:
+To use this template site for your own Mandy-powered site, you need to have Mandy installed. To find out how to do that, head over to [this link](https://angeldollface.boo/mandys-house/documentation/installation). Once you have Mandy installed, you can use this template in the following way:
 
 - 1.) Check you have the latest version of Mandy installed:
 
