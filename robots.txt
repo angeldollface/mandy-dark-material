@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://angeldollface.art/mandy-dark-material/sitemap.xml
+Sitemap: https://angeldollface.boo/mandy-dark-material/sitemap.xml
